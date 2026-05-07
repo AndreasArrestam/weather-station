@@ -119,8 +119,8 @@ def loop():
     count = 0
     while(True):
         lcd1602.clear()
-        lcd1602.write(0, 0, '  Hello World!  ' )# display CPU temperature
-        lcd1602.write(0, 1, '  Counter: ' + str(count) )   # display the time
+        lcd1602.write(0, 0, '  Hello World!  ' )
+        lcd1602.write(0, 1, '  Counter: ' + str(count) )
         time.sleep(1)
         count += 1
 def destroy():
